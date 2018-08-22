@@ -2,10 +2,7 @@ package com.codington.module4;
 
 public class CodingtonEventDetails {
 
-	private enum EventLocation {
-		NORTH,
-		SOUTH
-	}
+	private enum EventLocation { NORTH, SOUTH }
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Event event1 = new Event();
