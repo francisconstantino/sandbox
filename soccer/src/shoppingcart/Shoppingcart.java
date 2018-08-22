@@ -27,15 +27,39 @@ public class Shoppingcart {
 		//Put the full name back together using stringbuilder append
 		//method
 
-		int k = 1;
-		for(int row = 6; row >= 1; row--) {
-			System.out.print(k);
-			for(int i = 0; i <= row-2; i++) {
-				System.out.print("*");
-			}
-			System.out.println("");
-			k++;
-		}
+//		int k = 1;
+//		for(int row = 6; row >= 1; row--) {
+//			System.out.print(k);
+//			for(int i = 0; i <= row-2; i++) {
+//				System.out.print("*");
+//			}
+//			System.out.println("");
+//			k++;
+//		}
+
+		System.out.println("");
+
+//		for(int row = 6; row >= 1; row--) {
+//			for(int i = 0; i <= row-1; i++) {
+//				System.out.print("*");
+//			}
+//			System.out.println("");
+//		}
+
+//		for(int row = 0; row <= 5; row++) {
+//			for(int i = 0; i <= row; i++) {
+//				System.out.print("*");
+//			}
+//			System.out.println("");
+//		}
+
+//		for(int row = 1; row <= 6; row++) {
+//			for(int i = 1; i <= row; i++) {
+//				System.out.print(i);
+//			}
+//
+//			System.out.println("");
+//		}
 
 
 
