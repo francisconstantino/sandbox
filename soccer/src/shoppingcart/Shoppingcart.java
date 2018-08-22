@@ -61,6 +61,20 @@ public class Shoppingcart {
 //			System.out.println("");
 //		}
 
+		int k = 1;
+		for(int row = 6; row >= 1; row--) {
+			for(int i = 0; i <= row-1; i++) {
+				if(k == 1){
+					System.out.println(k);
+				}
+				System.out.print("*");
+			}
+			System.out.println("");
+			k++;
+		}
+
+
+
 
 
 
