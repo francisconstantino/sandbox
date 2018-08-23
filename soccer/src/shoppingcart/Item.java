@@ -1,10 +1,10 @@
 package shoppingcart;
 
-public class Item {
+public abstract class Item {
 
 	private String name;
 	private double price;
-
+	public int age = 12;
 
 	public Item(String name, double price) {
 		setName(name);
@@ -30,6 +30,8 @@ public class Item {
 	public void setPrice(double price) {
 		this.price = price;
 	}
+
+	public abstract void wear();
 
 
 

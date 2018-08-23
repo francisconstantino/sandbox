@@ -27,6 +27,17 @@ public class Shirt extends Item{
 	}
 
 
+	//abstract contract
+	@Override
+	public void wear() {
+		System.out.println("Wear");
+
+	}
+
+
+
+
+
 
 
 

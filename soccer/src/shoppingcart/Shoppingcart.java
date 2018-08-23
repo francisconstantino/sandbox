@@ -37,6 +37,9 @@ public class Shoppingcart {
 			k++;
 		}
 
+		Shirt shirt = new Shirt('M', 'R');
+		shirt.display();
+
 
 
 

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_aX7CoEApEeWuFsuddJAdVg" name="NewModel">
+  <packageImport xmi:id="_veqL0EApEeWuFsuddJAdVg">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_lgQpAEApEeWuFsuddJAdVg" name="Event">
+    <ownedAttribute xmi:id="_VbvDMEAuEeWuFsuddJAdVg" name="eventId" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_X6LbkEAuEeWuFsuddJAdVg" name="name" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_anpucEAuEeWuFsuddJAdVg" name="description" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_cydZIEAuEeWuFsuddJAdVg"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_c_tK8EAuEeWuFsuddJAdVg" name="place" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fSshQEAuEeWuFsuddJAdVg"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_B0prsEAqEeWuFsuddJAdVg" name="getEventId"/>
+    <ownedOperation xmi:id="_IDhBsEAqEeWuFsuddJAdVg" name="setEventId">
+      <ownedParameter xmi:id="_JSq8cEAqEeWuFsuddJAdVg" name="eventId">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_k7BbsEAuEeWuFsuddJAdVg" name="getName"/>
+    <ownedOperation xmi:id="_qht-cEAuEeWuFsuddJAdVg" name="setName">
+      <ownedParameter xmi:id="_rs274EAuEeWuFsuddJAdVg" name="name">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_uLceMEAuEeWuFsuddJAdVg" name="getDescription"/>
+    <ownedOperation xmi:id="_wskXIEAuEeWuFsuddJAdVg" name="setDescription">
+      <ownedParameter xmi:id="_xqnTwEAuEeWuFsuddJAdVg" name="description">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_03LWYEAuEeWuFsuddJAdVg" name="getPlace"/>
+    <ownedOperation xmi:id="_1val8EAuEeWuFsuddJAdVg" name="setPlace">
+      <ownedParameter xmi:id="_2jfHMEAuEeWuFsuddJAdVg" name="place">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_--8QkEAuEeWuFsuddJAdVg" name="NorthEvent">
+    <generalization xmi:id="_UAUYoEAvEeWuFsuddJAdVg" general="_lgQpAEApEeWuFsuddJAdVg"/>
+    <ownedAttribute xmi:id="_C0HyYEAvEeWuFsuddJAdVg" name="name">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_J8Rg0EAvEeWuFsuddJAdVg" name="place">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_KvvlIEAvEeWuFsuddJAdVg"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_OQ_eUEAvEeWuFsuddJAdVg" name="getName"/>
+    <ownedOperation xmi:id="_PB8aIEAvEeWuFsuddJAdVg" name="getPlace"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_k1baAJKAEeWJsYYgeCd5xA" name="Scenario_0"/>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_FrZ8EJKCEeWJsYYgeCd5xA" name="Scenario_1"/>
+</uml:Model>
