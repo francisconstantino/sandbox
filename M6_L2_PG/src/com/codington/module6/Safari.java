@@ -45,8 +45,14 @@ public class Safari {
 
 	@Override
 	public String toString() {
-		return "Safari [safariName=" + safariName + ", safariDescription="
-				+ safariDescription + ", safariCost=" + safariCost
-				+ ", safariDuration=" + safariDuration + "]";
+		return "[Safari Name=" + safariName + ", Safari Description="
+				+ safariDescription + ", Safari Cost=" + safariCost
+				+ " Pesos, Safari Duration=" + safariDuration + "mins]";
+	}
+	
+	public static void main(String[] args) {
+		Safari safari = new Safari();
+		safari.setSafariCost(25);
+		System.out.println(safari.toString());
 	}
 }
