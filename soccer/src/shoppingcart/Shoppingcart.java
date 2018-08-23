@@ -85,17 +85,21 @@ public class Shoppingcart {
 //			System.out.println("");
 //		}
 
-		int k = 1;
-		for(int row = 6; row >= 1; row--) {
-			for(int i = 1; i <=6; i++) {
-				if(i < row) {
-					System.out.print(i);
-				} else {
-					System.out.print("&");
-				}
-			}
-			System.out.println("");
-		}
+//		int k = 1;
+//		for(int row = 6; row >= 1; row--) {
+//			for(int i = 1; i <=6; i++) {
+//				if(i < row) {
+//					System.out.print(i);
+//				} else {
+//					System.out.print("&");
+//				}
+//			}
+//			System.out.println("");
+//		}
+
+		String variable = "abcdei";
+		String name = "Francis";
+		System.out.println(variable.indexOf(name.charAt(5)));
 
 
 
