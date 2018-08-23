@@ -148,11 +148,13 @@ public class EventPassDetails {
 		//TODO  27. Use while loop to check if the participation of children is more than the adults and print the message that the participation of children is more than adult if the check is passed.
 		//Use break to come out of the while loop.
 
-		int i = noOfTickets - 1;
+		int i = 0;
+		int j = 1;
 		do {
-			System.out.println("ID: " + id[i]);
-			i--;
-		} while (i >= 0);
+			System.out.println("\tID " + j + ": " + id[i]);
+			++i;
+			++j;
+		} while (i < noOfTickets);
 
 		while(noOfChildren > noOfAdults) {
 			System.out.println("Children participation is more than adults.");
