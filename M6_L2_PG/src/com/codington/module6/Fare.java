@@ -29,10 +29,10 @@ package com.codington.module6;
 		      * TODO 5.b return the calculated fare value.
 		      *
 		      */
-			protected double serviceTax = 0.0;
+			protected double serviceTax = 0.0D;
 
-			public final double calculateFare(double baseFare, double serviceTax) {
-				double fareValue = baseFare + serviceTax;
+			public final double calculateFare() {
+				double fareValue = this.baseFare + this.serviceTax;
 				return fareValue;
 			}
 		     //TODO 6.Create a setter method for service tax which takes a double parameter, service tax.

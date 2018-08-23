@@ -18,9 +18,9 @@ public class RidesDetails {
 			zoo.setNoOfAnimals(6);
 			//TODO 3. Set zoo animals details by setting the animals names by following below instructions.
 			//TODO 3.a Declare a string array and initialize it with animal names like Lion, African Elephants,Australian Kangaroos,Giraffe,Deer,Rhinoceros.
-			String[] animalNames = {"Lion", "African Elephants", "Australian Kangaroos", "Giraffe", "Deer", "Rhinoceros" };
+			String[] zooAnimals = {"Lion", "African Elephants", "Australian Kangaroos", "Giraffe", "Deer", "Rhinoceros" };
 			//TODO 3.b Invoke setAnimalNames method to zoo class and pass zooAnimals string array.
-
+			zoo.setAnimalNames(zooAnimals);
 			//TODO 3.c set the zooAnimals string array value to null.
 			//TODO 4.Create an instance of the Safari class.
 			Safari safari = new Safari();
@@ -33,18 +33,26 @@ public class RidesDetails {
             //TODO 8. Set values for Safari class attribute, safari name to South Codington Safari.
 			safari.setSafariName("South Codington Safari");
             //TODO 9. Call setSafari() method of Zoo class by passing the Safari class object populated in above step.
-
+			zoo.setSafari(safari);
 			//TODO 10. Call setServiceTax() method of Zoo class by passing a double value 20.50.
 			zoo.serviceTax = 20.50;
         	//TODO 11. Call assignRideCategory() method of Zoo class.
 			zoo.assignRideCategory();
             //TODO 12.Invoke getAnimalNames() method of zoo class and assign return value to instance variable zooAnimals.
-            //TODO 13. Display animal details by looping through the string array zooAnimals.
+            zoo.getAnimalNames();
+			//TODO 13. Display animal details by looping through the string array zooAnimals.
+            System.out.println("There are just some of the animals you'll find at the Codingtion Zoo : ");
+            for(String zooAnimal : zooAnimals) {
+            	System.out.println(zooAnimal);
+            }
             //TODO 14. Display rides category zoo details by invoking getRideDetails() method.
-            zoo.getRideDetails();
+            System.out.println("");
+            System.out.println("Rides category of zoo : " + zoo.getRideDetails());
 			//TODO 15. Display rides safari details by invoking getSafari() method.
-            safari.toString();
+            System.out.println("");
+            System.out.println("Here are the safari details :: " + safari.toString());
 			 //TODO 16. Display zoo fare by invoking calculateFare() method.
-            zoo.calculateFare(baseFare, serviceTax);
+            System.out.println("");
+            System.out.println("Codingtion Zoo Fare Rates : " + zoo.calculateFare() + " Pesos");
 }
 }

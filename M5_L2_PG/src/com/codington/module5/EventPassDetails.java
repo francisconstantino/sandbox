@@ -149,11 +149,9 @@ public class EventPassDetails {
 		//Use break to come out of the while loop.
 
 		int i = 0;
-		int j = 1;
 		do {
-			System.out.println("\tID " + j + ": " + id[i]);
+			System.out.println("\tID " + (i + 1) + ": " + id[i]);
 			++i;
-			++j;
 		} while (i < noOfTickets);
 
 		while(noOfChildren > noOfAdults) {

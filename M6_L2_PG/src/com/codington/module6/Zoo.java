@@ -18,7 +18,7 @@ public class Zoo extends Fare implements RidesHosting {
 	//TODO 2 - Declare a local private integer variable to hold number of animals value and initialize it to zero.
 	private int noOfAnimals = 0;
 	//TODO 3 - Declare an array of String to hold animal names and initialize it to empty string.
-	String[] zooAnimals = new String[10];
+	String[] animalNames = new String[10];
 	//TODO 4 - Declare an instance of Safari class with private access modifier and assign null value to it.The Safari class will be composed in Zoo class.
 	private Safari safari = new Safari();
 	//TODO 5 - Declare a local private integer variable to hold zoo ride value and initialize it to zero.
@@ -36,6 +36,22 @@ public class Zoo extends Fare implements RidesHosting {
 
 	public void setNoOfAnimals(int noOfAnimals) {
 		this.noOfAnimals = noOfAnimals;
+	}
+
+	public String[] getAnimalNames() {
+		return animalNames;
+	}
+
+	public void setAnimalNames(String[] animalNames) {
+		this.animalNames = animalNames;
+	}
+
+	public Safari getSafari() {
+		return safari;
+	}
+
+	public void setSafari(Safari safari) {
+		this.safari = safari;
 	}
 
 	public int getZooRide() {
@@ -58,7 +74,6 @@ public class Zoo extends Fare implements RidesHosting {
 	 * 			 assign the string "High Thrill Rides for Teens and Adults" to rideDetails if zooRide is a high thrill ride
 	 * TODO 10.c - return the rideDetails.
 	 */
-
 
 
 	public String getRideDetails() {
