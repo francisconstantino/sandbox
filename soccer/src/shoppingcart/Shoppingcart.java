@@ -40,6 +40,11 @@ public class Shoppingcart {
 		Shirt shirt = new Shirt('M', 'R');
 		shirt.display();
 
+		Person student = new Student();
+		student.setName("Francis");
+		student.setAge(18);
+		System.out.println(((Student) student).display());
+
 
 
 
