@@ -46,6 +46,11 @@ public class Shoppingcart {
 		System.out.println(((Student) student).display());
 
 
+		int x = 0;
+		x++;
+		System.out.println(x);
+
+
 
 
 
