@@ -1,0 +1,18 @@
+Create a class named LastDigit and create a method inside the class named lastDigit
+
+Method signature should be:
+public boolean lastDigit(int a, int b, int c) {
+}
+
+Given three ints, a,b,c, return true if two or more of the have the same rightmost digit. Assume the ints are non-negative.
+
+Some test cases:
+lastDigit(12, 22, 23) : true
+lastDigit(23, 42, 55) : false
+lastDigit(23, 19, 3) : true
+
+
+Share the project to your repository 
+
+Repository Location:
+	https://10.242.95.223/svn/<eid>

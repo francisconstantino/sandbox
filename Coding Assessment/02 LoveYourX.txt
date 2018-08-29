@@ -1,0 +1,38 @@
+package com.accenture.tcf.codingassessment.flowcontrol.activity02;
+
+public class LoveYourX {
+	/* Problem: Love Your X 
+	 * Instructions:
+	 * 	1. Write a program that will output the following using loops.
+	 * 		* *
+	 * 		 *
+	 * 		* *
+	 * 	2. Use a integer variable named 'size' that will determine the size of the print out
+	 * 	3. Size should be an odd number
+	 * 	4. Examples:
+	 * 		- If 'size' is equal to 7, then print the following:
+	 * 
+	 * 		  *     *
+	 * 	 	   *   *
+	 * 		    * *
+	 * 		     *
+	 * 		    * *
+	 * 		   *   *
+	 * 		  *     *
+	 * 		- If 'size' is equal to 5, then print the following:
+	 * 	 	   *   *
+	 * 		    * *
+	 * 		     *
+	 * 		    * *
+	 * 		   *   *
+	 * 
+	 * Duration: 15 minutes
+	 * 
+	 * Hint: Use coordinates just like the Cartesian Coordinate System
+	 * Happy Coding
+	 */
+	
+	public static void main(String[] args) {
+		int size = 7; // Change this variable appropriately
+	}
+}
