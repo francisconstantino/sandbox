@@ -10,7 +10,9 @@ public class Vehicle {
 	}
 
 	public Vehicle(int d, int s, int w) {
-
+		this.doors = d;
+		this.seats = s;
+		this.wheels = w;
 	}
 
 	public void drive() {

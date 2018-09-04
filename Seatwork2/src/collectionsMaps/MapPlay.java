@@ -1,16 +1,10 @@
 package collectionsMaps;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Map.Entry;
-import java.util.Set;
 import java.util.TreeMap;
-import java.util.TreeSet;
-import java.util.stream.Collectors;
 
 public class MapPlay {
 
@@ -51,11 +45,17 @@ public class MapPlay {
 		map.put(1, new Person("Apple", "Mango", 13));
 		map.put(3, new Person("Mango", "Apple", 15));
 
-		Collection <Person> values = map.values();
-		List <Person> list = new ArrayList<>(values);
-
-		Collections.sort(list, new ComparatorDemo());
+//		Collection <Person> values = map.values();
+//		List <Person> list = new ArrayList<>(values);
+//
+//		Collections.sort(list, new ComparatorDemo());
+//		list.forEach(e -> System.out.println(e));
+		
+		List <Integer> list = new ArrayList<>(map.keySet());
+		Collections.sort(list);
 		list.forEach(e -> System.out.println(e));
+		
+		
 
 
 
