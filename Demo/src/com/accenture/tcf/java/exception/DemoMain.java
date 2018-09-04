@@ -8,9 +8,10 @@ public class DemoMain {
 		Arithmetic a = new Arithmetic();
 
 			try {
-				System.out.println(a.divide(100, 5));
+				System.out.println(a.divide(100, 0));
 				System.out.println(a.subtract(3, 9));
 			} catch (URException e) {
+				System.out.println(e.getMessage());
 				System.out.println(e.getMessage());
 			}
 

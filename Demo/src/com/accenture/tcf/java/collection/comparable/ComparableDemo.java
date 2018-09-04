@@ -21,12 +21,12 @@ public class ComparableDemo {
 			System.out.println(e);
 		});
 
-		Collections.sort(empList);
-
-		System.out.println("\nAfter Sorting:");
-		empList.forEach(e -> {
-			System.out.println(e);
-		});
+//		Collections.sort(empList);
+//
+//		System.out.println("\nAfter Sorting:");
+//		empList.forEach(e -> {
+//			System.out.println(e);
+//		});
 
 
 	}
